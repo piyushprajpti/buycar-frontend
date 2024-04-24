@@ -1,0 +1,89 @@
+.container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-image: url("../../res/footerBack.png");
+   background-position: bottom;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: var(--footer-back);
+   
+   color: #ffffff;
+}
+
+.wrapper {
+   display: flex;
+   padding: 70px 0;
+}
+
+.about-section {
+   flex: 4;
+   display: flex;
+   flex-direction: column;
+   padding: 0 120px;
+}
+
+.logo {
+   object-fit: cover;
+   width: 148px;
+   margin-bottom: 24px;
+}
+
+.about {
+   size: 1.375rem;
+   font-weight: 300;
+   width: 70%;
+}
+
+.info-section {
+   flex: 3;
+   display: flex;
+   flex-direction: column;
+}
+
+.title {
+   font-size: 1.75rem;
+   font-weight: 700;
+   padding-bottom: 16px;
+}
+
+.button-wrapper {
+   padding: 7px 0;
+   display: flex;
+}
+
+.dot {
+   object-fit: contain;
+   width: 10px;
+}
+
+.button-name {
+   margin-left: 16px;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+
+.button-name:hover {
+   cursor: pointer;
+   color: var(--primary-color);
+}
+
+.help-section {
+   flex: 3;
+   display: flex;
+   flex-direction: column;
+}
+
+.copyright-container {
+   width: 100%;
+   height: 73px;
+   display: flex;
+   background-color: #ffffff20;
+   justify-content: center;
+   align-items: center;
+
+   p {
+      size: 1.25rem;
+      color: #ffffff69;
+   }
+}

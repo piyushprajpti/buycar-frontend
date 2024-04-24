@@ -1,0 +1,36 @@
+.container {
+   :hover {
+      cursor: pointer;
+      color: var(--primary-color) !important;
+   }
+}
+
+.container:hover .bottom-line {
+   display: block;
+   animation: bottom-line-animation 0.3s ease-in-out forwards;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.icon {
+   object-fit: contain;
+   width: 20px;
+}
+
+.bottom-line {
+   width: 0;
+   background-color: var(--primary-color);
+   height: 2px;
+}
+
+@keyframes bottom-line-animation {
+   from {
+      width: 0;
+   }
+   to {
+      width: 100%;
+   }
+}

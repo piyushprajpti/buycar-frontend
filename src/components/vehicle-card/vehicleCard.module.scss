@@ -1,0 +1,124 @@
+.container {
+   border: 1px solid var(--vehicle-card-gray);
+   border-radius: 22px;
+   display: flex;
+   flex-direction: column;
+   padding: 16px;
+   margin-right: 40px;
+   background-color: #ffffff;
+}
+
+.image-container {
+   width: 385px;
+   aspect-ratio: 16/9;
+   position: relative;
+}
+
+.discount-tag-container {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+}
+
+.discount-amount {
+   position: absolute;
+   top: 7px;
+   left: 13px;
+   font-size: 1.125rem;
+   font-weight: 600;
+   color: white;
+}
+
+.tag-image {
+   width: 120px;
+   height: 40px;
+}
+
+.vehicle-image {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 16px;
+}
+
+.specs-container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.specs-wrapper {
+   width: 90%;
+   border-radius: 22.5px;
+   background-color: var(--specs-back-gray);
+   transform: translateY(-50%);
+   display: flex;
+   align-items: center;
+   padding: 10px 24px;
+}
+
+.spec-wrapper {
+   display: flex;
+}
+
+.spec-icon {
+   width: 22px;
+}
+
+.spec-name {
+   margin-left: 5px;
+   font-size: 0.875rem;
+   font-weight: 400;
+   color: var(--specs-font-black);
+}
+
+.gray-dot {
+   margin: 0 8px;
+   width: 5px;
+   height: 5px;
+   border-radius: 50%;
+   background-color: var(--dot-gray);
+}
+
+.vehicle-name {
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--tags-text-black);
+}
+
+.vehicle-price {
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--specs-price-black);
+   margin-bottom: 5px;
+}
+
+.horizontal-divider {
+   background-color: var(--vehicle-card-gray);
+   width: 100%;
+   height: 1px;
+   align-self: center;
+   margin: 16px;
+}
+
+.vehicle-location-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.location-icon {
+   width: 16px;
+   height: 19px;
+   margin-right: 12px;
+}
+
+.location {
+   color: var(--specs-price-gray);
+   font-size: 1rem;
+   font-weight: 400;
+}

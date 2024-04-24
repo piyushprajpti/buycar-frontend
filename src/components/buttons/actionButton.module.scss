@@ -1,0 +1,15 @@
+.container {
+   color: #ffffff;
+   border-radius: 8px;
+   background-color: var(--primary-color);
+   text-align: center;
+   width: fit-content;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.text:hover {
+   cursor: pointer;
+}
