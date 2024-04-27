@@ -91,11 +91,22 @@
    color: var(--tags-text-black);
 }
 
-.vehicle-price {
+.vehicle-price-container {
+   display: flex;
+   margin-bottom: 5px;
+}
+
+.vehicle-original-price {
    font-size: 1.5rem;
    font-weight: 600;
    color: var(--specs-price-black);
-   margin-bottom: 5px;
+}
+
+.vehicle-discounted-price {
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--primary-color);
+   margin-left: 5px;
 }
 
 .horizontal-divider {
@@ -106,19 +117,23 @@
    margin: 16px;
 }
 
-.vehicle-location-wrapper {
+.vehicle-date-wrapper {
    display: flex;
    align-items: center;
+   width: fit-content;
+   background-color: var(--vehicle-date-back);
+   border-radius: 14px;
+   padding-right: 14px;
 }
 
-.location-icon {
-   width: 16px;
-   height: 19px;
-   margin-right: 12px;
+.car-icon {
+   width: 29px;
+   height: 29px;
+   margin-right: 9px;
 }
 
-.location {
-   color: var(--specs-price-gray);
-   font-size: 1rem;
+.date {
+   color: #000000;
+   font-size: 1.125rem;
    font-weight: 400;
 }

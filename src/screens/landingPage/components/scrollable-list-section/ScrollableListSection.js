@@ -8,7 +8,7 @@ export default function ScrollableListSection({
    word1, word2, word3, onBackClick, onForwardClick, backColor
 }) {
    return (
-      <div className={style["container"]} style={{backgroundColor: backColor}} >
+      <div className={style["container"]} style={{ backgroundColor: backColor }} >
          <div className={style["wrapper"]}>
 
             <SectionHeader word1={word1} word2={word2} word3={word3} onBackClick={onBackClick} onForwardClick={onForwardClick} />
@@ -17,38 +17,41 @@ export default function ScrollableListSection({
 
                <VehicleCard
                   discountAmount={"50% OFF"}
-                  vehicleImg={R.img_hero_section_back}
+                  vehicleImg={R.ic_car1}
                   transmissionType={"Automatic"}
                   fuelType={"Petrol"}
                   odometer={"40,000"}
                   vehicleName={"2022 Hyundai Creta SX"}
-                  vehiclePrice={"$ 14.74 Lac"}
-                  vehicleLocation={"Derawal Nagar"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
                />
 
                <VehicleCard
                   discountAmount={"50% OFF"}
-                  vehicleImg={R.img_hero_section_back}
+                  vehicleImg={R.ic_car2}
                   transmissionType={"Automatic"}
                   fuelType={"Petrol"}
                   odometer={"40,000"}
                   vehicleName={"2022 Hyundai Creta SX"}
-                  vehiclePrice={"$ 14.74 Lac"}
-                  vehicleLocation={"Derawal Nagar"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
                />
 
                <VehicleCard
                   discountAmount={"50% OFF"}
-                  vehicleImg={R.img_hero_section_back}
+                  vehicleImg={R.ic_car3}
                   transmissionType={"Automatic"}
                   fuelType={"Petrol"}
                   odometer={"40,000"}
                   vehicleName={"2022 Hyundai Creta SX"}
-                  vehiclePrice={"$ 14.74 Lac"}
-                  vehicleLocation={"Derawal Nagar"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
                />
-               
-               
+
+
             </div>
          </div>
       </div>
@@ -63,9 +66,9 @@ export const SectionHeader = ({
 
          <div className={headerStyle["wrapper"]}>
             <p className={headerStyle["vertical-divider"]}></p>
-            {word1 && <p className={headerStyle["heading"]} style={{color: word1.color}} >{word1.text}</p>}
-            {word2 && <p className={headerStyle["heading"]} style={{color: word2.color}} >{word2.text}</p>}
-            {word3 && <p className={headerStyle["heading"]} style={{color: word3.color}} >{word3.text}</p>}
+            {word1 && <p className={headerStyle["heading"]} style={{ color: word1.color }} >{word1.text}</p>}
+            {word2 && <p className={headerStyle["heading"]} style={{ color: word2.color }} >{word2.text}</p>}
+            {word3 && <p className={headerStyle["heading"]} style={{ color: word3.color }} >{word3.text}</p>}
          </div>
 
          <div className={headerStyle["wrapper"]}>

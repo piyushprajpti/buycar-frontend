@@ -3,8 +3,12 @@ import style from "./vehicleCard.module.scss"
 import { R } from '../../constants/resources'
 
 export default function VehicleCard({
-   discountAmount, vehicleImg, transmissionType, fuelType, odometer, vehicleName, vehiclePrice, vehicleLocation
+   discountAmount, vehicleImg, transmissionType, fuelType, odometer, vehicleName, vehicleOriginalPrice, vehicleDiscountedPrice, vehicleDate
 }) {
+
+   let textDecoration = vehicleDiscountedPrice ? "line-through" : "none";
+   let priceColor = vehicleDiscountedPrice ? "var('--specs-price-black')" : "var('--primary-color')";
+
    return (
       <div className={style["container"]}>
 
@@ -46,13 +50,17 @@ export default function VehicleCard({
 
          <p className={style["vehicle-name"]}>{vehicleName}</p>
 
-         <p className={style["vehicle-price"]}>{vehiclePrice}</p>
+         <div className={style["vehicle-price-container"]}>
 
+            <p className={style["vehicle-original-price"]} style={{ textDecoration: textDecoration, color: priceColor }}>{vehicleOriginalPrice}</p>
+            <p className={style["vehicle-discounted-price"]}>{vehicleDiscountedPrice}</p>
+
+         </div>
          <p className={style["horizontal-divider"]}></p>
 
-         <div className={style["vehicle-location-wrapper"]}>
-            <img src={R.ic_location_pin} alt='icon' className={style["location-icon"]} />
-            <p className={style["location"]}>{vehicleLocation}</p>
+         <div className={style["vehicle-date-wrapper"]}>
+            <img src={R.ic_car_primary_back} alt='icon' className={style["car-icon"]} />
+            <p className={style["date"]}>{vehicleDate}</p>
          </div>
 
       </div>

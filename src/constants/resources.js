@@ -21,6 +21,11 @@ import IC_KIA from "../res/kia.png"
 import IC_TOYOTA from "../res/toyota.png"
 import IC_HYUNDAI from "../res/hyundai.png"
 import IC_MAHINDRA from "../res/mahindra.png"
+import IC_CAR_PRIMARY_BACK from "../res/carPrimaryBack.png"
+import IMG_CAR1 from "../res/car1.png"
+import IMG_CAR2 from "../res/car2.png"
+import IMG_CAR3 from "../res/car3.png"
+import IC_SEARCH from "../res/search.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -45,5 +50,10 @@ export const R = {
    ic_kia: IC_KIA,
    ic_toyota: IC_TOYOTA,
    ic_hyundai: IC_HYUNDAI,
-   ic_mahindra: IC_MAHINDRA
+   ic_mahindra: IC_MAHINDRA,
+   ic_car_primary_back: IC_CAR_PRIMARY_BACK,
+   ic_car1: IMG_CAR1,
+   ic_car2: IMG_CAR2,
+   ic_car3: IMG_CAR3,
+   ic_search: IC_SEARCH
 }
