@@ -26,6 +26,10 @@ import IMG_CAR1 from "../res/car1.png"
 import IMG_CAR2 from "../res/car2.png"
 import IMG_CAR3 from "../res/car3.png"
 import IC_SEARCH from "../res/search.png"
+import IC_PLUS from "../res/plus.png"
+import IC_MINUS from "../res/minus.png"
+import IMG_CONTACT_BACK from "../res/contactBack.png"
+import IMG_TRIANGLE from "../res/triangle.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -55,5 +59,9 @@ export const R = {
    ic_car1: IMG_CAR1,
    ic_car2: IMG_CAR2,
    ic_car3: IMG_CAR3,
-   ic_search: IC_SEARCH
+   ic_search: IC_SEARCH,
+   ic_plus: IC_PLUS,
+   ic_minus: IC_MINUS,
+   img_contact_back: IMG_CONTACT_BACK,
+   img_triangle: IMG_TRIANGLE
 }

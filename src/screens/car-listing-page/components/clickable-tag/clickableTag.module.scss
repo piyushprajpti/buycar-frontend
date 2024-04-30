@@ -1,0 +1,17 @@
+.container {
+   padding: 6px 12px;
+   border: 1px solid var(--filter-horizontal-divider);
+   border-radius: 2px;
+   margin: 0 8px 8px 0;
+
+   :hover {
+      cursor: pointer;
+   }
+}
+
+.text {
+   font-size: 0.875rem;
+   font-weight: 500;
+   color: var(--filter-header);
+   
+}

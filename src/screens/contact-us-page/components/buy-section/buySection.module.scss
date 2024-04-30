@@ -1,0 +1,102 @@
+.container {
+   width: 100%;
+   padding-top: 60px;
+   display: flex;
+   height: 800px;
+   background-color: #ffffff;
+   border-radius: 0 30px 30px 30px;
+   box-shadow: 0 4px 54px 0 #0000001a;
+}
+
+.query-container {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   margin-left: 50px;
+}
+
+.container-header {
+   font-size: 2.125rem;
+   font-weight: 600;
+   color: #000000;
+   margin-bottom: 36px;
+}
+
+.query-area {
+   width: 100%;
+   height: 120px;
+   margin-top: 30px;
+   resize: none;
+   padding: 16px;
+   color: var(--input-field-font-color);
+   border: 1px solid var(--selection-border-gray);
+   border-radius: 8px;
+}
+
+.vertical-divider {
+   width: 1px;
+   background-color: var(--divider-gray);
+   height: 100%;
+   margin-left: 60px;
+}
+
+.address-container {
+   display: flex;
+   flex-direction: column;
+   background-image: url("../../../../res/contactBack.png");
+   background-position: bottom;
+   background-size: contain;
+   background-repeat: no-repeat;
+   flex: 1;
+   border-radius: 0 0 30px 0;
+}
+
+.address-wrapper {
+   margin-left: 50px;
+}
+
+.address-header-wrapper {
+   display: flex;
+   align-items: center;
+   margin-top: 45px;
+}
+
+.leading-bar {
+   height: 34px;
+   width: 6px;
+   background-color: var(--primary-color);
+   margin-right: 24px;
+}
+
+.address-type {
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--specs-font-black);
+}
+
+.address-detail {
+   font-size: 1.125rem;
+   color: var(--specs-font-black);
+   opacity: 50%;
+   margin: 16px 0 16px 30px;
+}
+
+.map-view-wrapper {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+}
+
+.map-view-wrapper:hover {
+   cursor: pointer;
+}
+
+.location-pin {
+   width: 24px;
+   object-fit: contain;
+}
+
+.map-view-text {
+   margin-left: 12px;
+   color: var(--primary-color);
+}

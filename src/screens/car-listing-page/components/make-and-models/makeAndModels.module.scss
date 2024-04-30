@@ -1,0 +1,27 @@
+.search-wrapper {
+   display: flex;
+   border: 1px solid var(--filter-horizontal-divider);
+   padding: 15px 0 15px 13px;
+   margin-top: 20px;
+   align-items: center;
+}
+
+.search-icon {
+   width: 20px;
+   height: 20px;
+   margin-right: 8px;
+}
+
+.search-input {
+   color: var(--filter-input);
+   font-size: 0.875rem;
+   font-weight: 400;
+   border: none;
+   width: 100%;
+   height: 100%;
+   outline: none;
+}
+
+.search-input:focus {
+   color: var(--tags-text-black);
+}

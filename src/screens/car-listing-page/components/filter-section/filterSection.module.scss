@@ -1,0 +1,33 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   flex: 2.5;
+   margin: 0 20px;
+   background-color: #ffffff;
+}
+
+.container-header {
+   padding: 30px 0 0 30px;
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--tags-text-black);
+}
+
+.horizontal-divider {
+   background-color: var(--filter-horizontal-divider);
+   height: 1px;
+   width: 100%;
+   margin: 20px 0 30px 0;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   margin: 0 40px 0 40px;
+}
+
+.wrapper-header {
+   font-size: 1.125rem;
+   font-weight: 600;
+   color: var(--filter-header);
+}

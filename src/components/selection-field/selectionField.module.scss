@@ -1,7 +1,30 @@
 .container {
    width: 100%;
-   padding: 21.5px 16px;
+   padding: 10px 16px;
    border: 1px solid var(--selection-border-gray);
+   display: flex;   
+   align-items: center;
+   border-radius: 8px;
+}
+
+.select-tag {
+   width: 100%;
    font-size: 1.125rem;
    color: var(--input-field-font-color);
+   outline: none;
+   border: none;
+   appearance: none;
+}
+
+.drop-down-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 45px;
+   height: 45px;
+}
+
+.drop-down-img {
+   width: 15px;
+   height: 10px;
 }
