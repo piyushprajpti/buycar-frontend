@@ -4,6 +4,7 @@ import { R } from '../../../../constants/resources'
 import SelectionField from "../../../../components/selection-field/SelectionField"
 import InputField from "../../../../components/input-field/InputField"
 import { ActionButton } from '../../../../components/buttons/Buttons'
+import PrimaryPara from '../../../../components/primary-paragraph/PrimaryPara'
 
 export default function BuySection() {
    return (
@@ -35,30 +36,18 @@ export default function BuySection() {
 
                <p className={style["container-header"]}>Address</p>
 
-               <div className={style["address-header-wrapper"]}>
-                  <p className={style["leading-bar"]}></p>
-                  <p className={style["address-type"]}>Corporate Office Address</p>
-               </div>
-
-               <p className={style["address-detail"]}>A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India</p>
-
-               <div className={style["map-view-wrapper"]}>
-                  <img src={R.ic_location_pin} className={style["location-pin"]} />
-                  <p className={style["map-view-text"]}>Map View</p>
-               </div>
-
-               <div className={style["address-header-wrapper"]}>
-                  <p className={style["leading-bar"]}></p>
-                  <p className={style["address-type"]}>Corporate Office Address</p>
-               </div>
-
-               <p className={style["address-detail"]}>A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India</p>
-
-               <div className={style["map-view-wrapper"]}>
-                  <img src={R.ic_location_pin} className={style["location-pin"]} />
-                  <p className={style["map-view-text"]}>Map View</p>
-               </div>
-
+               <PrimaryPara 
+               title={"Corporate Office Address"}
+               description={"A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India"}
+               containerStyle={{paddingTop: "45px"}}
+               mapView
+               />
+               <PrimaryPara 
+               title={"Corporate Office Address"}
+               description={"A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India"}
+               containerStyle={{paddingTop: "45px"}}               
+               mapView
+               />
             </div>
          </div>
 

@@ -1,0 +1,49 @@
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+.heading-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.leading-bar {
+   height: 34px;
+   width: 6px;
+   background-color: var(--primary-color);
+   margin-right: 24px;
+}
+
+.address-type {
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--specs-font-black);
+}
+
+.description {
+   font-size: 1.125rem;
+   color: var(--specs-font-black);
+   opacity: 50%;
+   margin: 16px 0 16px 30px;
+}
+
+.map-view-wrapper {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+}
+
+.map-view-wrapper:hover {
+   cursor: pointer;
+}
+
+.location-pin {
+   width: 24px;
+   object-fit: contain;
+}
+
+.map-view-text {
+   margin-left: 12px;
+   color: var(--primary-color);
+}

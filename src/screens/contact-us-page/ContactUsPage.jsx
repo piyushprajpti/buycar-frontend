@@ -41,7 +41,6 @@ export default function ContactUsPage() {
             </div>
          </div>
 
-         <Footer />
       </div>
    )
 }

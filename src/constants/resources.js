@@ -30,6 +30,8 @@ import IC_PLUS from "../res/plus.png"
 import IC_MINUS from "../res/minus.png"
 import IMG_CONTACT_BACK from "../res/contactBack.png"
 import IMG_TRIANGLE from "../res/triangle.png"
+import IMG_LOGO_COLOR from "../res/logoColor.png"
+import IMG_ABOUT from "../res/about.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -63,5 +65,7 @@ export const R = {
    ic_plus: IC_PLUS,
    ic_minus: IC_MINUS,
    img_contact_back: IMG_CONTACT_BACK,
-   img_triangle: IMG_TRIANGLE
+   img_triangle: IMG_TRIANGLE,
+   img_logo_color: IMG_LOGO_COLOR,
+   img_about: IMG_ABOUT
 }

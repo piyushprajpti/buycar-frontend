@@ -45,8 +45,6 @@ export default function LandingPage() {
                word2={{ text: "STOCK", color: "var(--primary-color)" }}
             />
 
-            <Footer />
-
          </div>
       </>
    )

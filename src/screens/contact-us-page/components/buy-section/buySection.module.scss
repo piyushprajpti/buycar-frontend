@@ -31,6 +31,7 @@
    color: var(--input-field-font-color);
    border: 1px solid var(--selection-border-gray);
    border-radius: 8px;
+   font-size: 1.125rem;
 }
 
 .vertical-divider {
@@ -53,50 +54,4 @@
 
 .address-wrapper {
    margin-left: 50px;
-}
-
-.address-header-wrapper {
-   display: flex;
-   align-items: center;
-   margin-top: 45px;
-}
-
-.leading-bar {
-   height: 34px;
-   width: 6px;
-   background-color: var(--primary-color);
-   margin-right: 24px;
-}
-
-.address-type {
-   font-size: 1.25rem;
-   font-weight: 600;
-   color: var(--specs-font-black);
-}
-
-.address-detail {
-   font-size: 1.125rem;
-   color: var(--specs-font-black);
-   opacity: 50%;
-   margin: 16px 0 16px 30px;
-}
-
-.map-view-wrapper {
-   display: flex;
-   align-items: center;
-   margin-left: 30px;
-}
-
-.map-view-wrapper:hover {
-   cursor: pointer;
-}
-
-.location-pin {
-   width: 24px;
-   object-fit: contain;
-}
-
-.map-view-text {
-   margin-left: 12px;
-   color: var(--primary-color);
 }
