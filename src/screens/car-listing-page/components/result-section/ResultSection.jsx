@@ -69,19 +69,19 @@ export default function ResultSection() {
          >
             <div className={style["assurance-container"]}>
                <div className={style["assurance-wrapper"]}>
-                  <img className={style["assurance-ic"]} src={R.ic_buy_back} />
+                  <img className={style["assurance-ic"]} src={R.ic_buy_back} alt='icon' />
                   <p className={style["assurance-name"]}>Buy Back Guarantee</p>
                </div>
                <div className={style["assurance-wrapper"]}>
-                  <img className={style["assurance-ic"]} src={R.ic_buy_back} />
+                  <img className={style["assurance-ic"]} src={R.ic_buy_back} alt='icon' />
                   <p className={style["assurance-name"]}>Buy Back Guarantee</p>
                </div>
                <div className={style["assurance-wrapper"]}>
-                  <img className={style["assurance-ic"]} src={R.ic_buy_back} />
+                  <img className={style["assurance-ic"]} src={R.ic_buy_back} alt='icon' />
                   <p className={style["assurance-name"]}>Buy Back Guarantee</p>
                </div>
                <div className={style["assurance-wrapper"]}>
-                  <img className={style["assurance-ic"]} src={R.ic_buy_back} />
+                  <img className={style["assurance-ic"]} src={R.ic_buy_back} alt='icon' />
                   <p className={style["assurance-name"]}>Buy Back Guarantee</p>
                </div>
             </div>

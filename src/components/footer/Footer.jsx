@@ -18,19 +18,97 @@ export default function Footer() {
             <div className={style["info-section"]}>
                <p className={style["title"]}>Get to Know us</p>
 
-               <Button name={"About Us"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-               <Button name={"Legal"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-               <Button name={"Terms & Conditions"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-               <Button name={"Privacy Policies"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-
+               <Button
+                  name={"About Us"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+                  onClick={"/about-us"}
+               />
+               <Button
+                  name={"Legal"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+               />
+               <Button
+                  name={"Terms & Conditions"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+               />
+               <Button
+                  name={"Privacy Policies"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+               />
             </div>
 
             <div className={style["help-section"]}>
                <p className={style["title"]}>Let us Help you</p>
 
-               <Button name={"Help"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-               <Button name={"FAQ's"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
-               <Button name={"Contact us"} leadingIcon={R.ic_dot} fontSize={"1.5rem"} fontWeight={"300"} fontColor={"#ffffff"} margin={"7px 0"} leadingIconWidth={"8px"} textMargin={"0 0 0 24.5px"} />
+               <Button
+                  name={"Help"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+               />
+               <Button
+                  name={"FAQ's"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+               />
+               <Button
+                  name={"Contact Us"}
+                  leadingIcon={R.ic_dot}
+                  textStyle={{
+                     fontSize: "1.5rem",
+                     fontWeight: "300",
+                     color: "#ffffff",
+                     margin: "0 0 0 24.5px"
+                  }}
+                  margin={"7px 0"}
+                  leadingIconWidth={"8px"}
+                  onClick={"/contact-us"}
+               />
             </div>
          </div>
 

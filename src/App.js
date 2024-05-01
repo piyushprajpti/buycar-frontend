@@ -16,9 +16,9 @@ function App() {
                <Route path='/contact-us' element={<ContactUsPage />} />
                <Route path='/about-us' element={<AboutUsPage />} />
             </Routes>
+            <Footer />
          </BrowserRouter>
 
-         <Footer />
       </div>
    );
 }

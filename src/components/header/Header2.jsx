@@ -2,38 +2,92 @@ import React from 'react'
 import style from "./header2.module.scss"
 import { R } from '../../constants/resources'
 import { ActionButton, Button } from '../buttons/Buttons'
+import { Link } from 'react-router-dom'
 
 export default function Header2() {
    return (
       <div className={style["container"]}>
-         <div className={style["logo-wrapper"]}>
+         <Link className={style["logo-wrapper"]} to={"/"}>
             <img src={R.img_brand_logo} className={style["logo-img"]} />
-         </div>
+         </Link>
 
          <div className={style["button-wrapper"]}>
-            <Button 
-            name={"Home"} 
-            fontSize={"1.125rem"} 
-            fontColor={"#ffffff"} 
-            fontWeight={"500"} 
-            containerMargin={"0 20px"} 
-            bottomLine 
             
+            <Button
+               name={"Home"}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+               onClick={"/"}
             />
-            <Button name={"Buy Car"} fontSize={"1.125rem"} fontColor={"#ffffff"} fontWeight={"500"} containerMargin={"0 20px"} bottomLine />
-            <Button name={"Contact Us"} fontSize={"1.125rem"} fontColor={"#ffffff"} fontWeight={"500"} containerMargin={"0 20px"} bottomLine />
-            <Button name={"About Us"} fontSize={"1.125rem"} fontColor={"#ffffff"} fontWeight={"500"} containerMargin={"0 20px"} bottomLine />
-            <Button name={"More"} trailingIcon={R.ic_drop_down_arrow} fontSize={"1.125rem"} containerMargin={"0 20px"} fontColor={"#ffffff"} fontWeight={"500"} />
-            <Button name={"+91 1234567890"} leadingIcon={R.ic_whatsapp} fontSize={"1.125rem"} containerMargin={"0 20px"} fontColor={"#ffffff"} fontWeight={"500"} />
+            <Button
+               name={"Buy Car"}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+               onClick={"/car-listing-page"}
+            />
+            <Button
+               name={"Contact Us"}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+               onClick={"/contact-us"}
+            />
+            <Button
+               name={"About Us"}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+               onClick={"/about-us"}
+            />
+            <Button
+               name={"More"}
+               trailingIcon={R.ic_drop_down_arrow}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+            />
+            <Button
+               name={"+91 7014986896"}
+               leadingIcon={R.ic_whatsapp}
+               textStyle={{
+                  fontSize: "1.125rem",
+                  color: "#ffffff",
+                  fontWeight: "300"
+               }}
+               containerMargin={"0 20px"}
+               bottomLine
+            />
 
-            <ActionButton 
-            name={"Sell Car"} 
-            containerStyle={{
-               padding:"11px 34.5px",
-               margin: "0 20px",
-               backgroundColor: "#ffffff",
-               color: "#000000"
-            }}
+            <ActionButton
+               name={"Sell Car"}
+               containerStyle={{
+                  padding: "11px 34.5px",
+                  margin: "0 20px",
+                  backgroundColor: "#ffffff",
+                  color: "#000000"
+               }}
             />
          </div>
       </div>
