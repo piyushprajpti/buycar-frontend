@@ -1,0 +1,24 @@
+.container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 16px;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 2px;
+}
+
+.title {
+   margin: 15px 0 15px 15px;
+   font-size: 1rem;
+   color: var(--tags-text-black);
+   font-weight: 400;
+}
+
+.arrow-right {
+   margin-right: 15px;
+   width: 12px;
+   height: 7px;
+   object-fit: contain;
+}

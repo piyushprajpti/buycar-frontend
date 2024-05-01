@@ -9,7 +9,7 @@ import IC_INSTANT_ONLINE_QUOTE from "../res/instantOnlineQuote.png"
 import IC_FREE_DOORSTEP_EVALUATION from "../res/freeDoorStepEvaluation.png"
 import IC_SAME_DAY_PAYMENT from "../res/sameDayPayment.png"
 import IC_ARROW_LEFT from "../res/arrowLeft.png"
-import IC_ARROW_RIGHT from "../res/arrrowRight.png"
+import IC_ARROW_RIGHT_BLUE from "../res/arrowRightBlue.png"
 import IC_TRANSMISSION from "../res/transmission.png"
 import IC_FUEL from "../res/fuel.png"
 import IC_ODOMETER from "../res/odometer.png"
@@ -33,6 +33,7 @@ import IMG_TRIANGLE from "../res/triangle.png"
 import IMG_LOGO_COLOR from "../res/logoColor.png"
 import IMG_ABOUT from "../res/about.png"
 import IC_BUY_BACK from "../res/buyBackGuarantee.png"
+import IC_ARROW_RIGHT_BLACK from "../res/arrowRightBlack.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -46,7 +47,7 @@ export const R = {
    ic_free_doorstep_evaluation: IC_FREE_DOORSTEP_EVALUATION,
    ic_same_day_payment: IC_SAME_DAY_PAYMENT,
    ic_arrow_left: IC_ARROW_LEFT,
-   ic_arrow_right: IC_ARROW_RIGHT,
+   ic_arrow_right: IC_ARROW_RIGHT_BLUE,
    ic_transmission: IC_TRANSMISSION,
    ic_fuel: IC_FUEL,
    ic_odometer: IC_ODOMETER,
@@ -69,5 +70,6 @@ export const R = {
    img_triangle: IMG_TRIANGLE,
    img_logo_color: IMG_LOGO_COLOR,
    img_about: IMG_ABOUT,
-   ic_buy_back: IC_BUY_BACK
+   ic_buy_back: IC_BUY_BACK,
+   ic_arrow_right_black: IC_ARROW_RIGHT_BLACK
 }
