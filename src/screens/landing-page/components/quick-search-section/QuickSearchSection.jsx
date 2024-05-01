@@ -1,7 +1,7 @@
 import React from 'react'
 import style from "./quickSearchSection.module.scss"
-import { SectionHeader } from '../scrollable-list-section/ScrollableListSection'
 import { R } from '../../../../constants/resources'
+import HorizontalScroller from '../../../../components/horizontal-scroller/HorizontalScroller'
 
 export default function QuickSearchSection() {
    return (
@@ -9,19 +9,23 @@ export default function QuickSearchSection() {
 
          <div className={style["wrapper"]}>
 
-            <SectionHeader
+            <HorizontalScroller
                word1={{ text: "QUICK ", color: "var(--primary-color)" }}
                word2={{ text: "SEARCH", color: "#000000" }}
-            />
+               leadingBar={true}
+               scrollable={true}
+            >
+               <div className={style["brand-wrapper"]}>
+                  <BrandBox brandLogo={R.ic_bmw} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_audi} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_kia} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_toyota} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_hyundai} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_mahindra} style={{ width: "204px", marginRight: "40px" }} />
+               </div>
+            </HorizontalScroller>
 
-            <div className={style["brand-wrapper"]}>
-               <BrandBox brandLogo={R.ic_bmw} />
-               <BrandBox brandLogo={R.ic_audi} />
-               <BrandBox brandLogo={R.ic_kia} />
-               <BrandBox brandLogo={R.ic_toyota} />
-               <BrandBox brandLogo={R.ic_hyundai} />
-               <BrandBox brandLogo={R.ic_mahindra} />
-            </div>
+
 
          </div>
 
@@ -29,8 +33,8 @@ export default function QuickSearchSection() {
    )
 }
 
-const BrandBox = ({ brandLogo }) => {
+export const BrandBox = ({ brandLogo, style }) => {
    return (
-      <img src={brandLogo} alt='logo' style={{ width: "204px", marginRight: "40px" }} />
+      <img src={brandLogo} alt='logo' style={style} />
    )
 }

@@ -1,4 +1,52 @@
 .container {
    display: flex;
+   flex-direction: column;
    flex: 7;
+   margin-right: 50px;
+}
+
+.result-header {
+   font-size: 1.75rem;
+   font-weight: 600;
+   color: var(--tags-text-black);
+   margin-bottom: 30px;
+}
+
+.result-list-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.assurance-container {
+   display: flex;
+}
+
+.assurance-wrapper {
+   width: 136px;
+   height: 136px;
+   border: 1px solid var(--primary-color);
+   border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 0 30px 20px 0;
+}
+
+.assurance-ic {
+   width: 37px;
+   object-fit: contain;
+}
+
+.assurance-name {
+   margin-top: 15px;
+   font-size: 0.875rem;
+   color: var(--specs-font-black);
+   font-weight: 500;
+}
+
+.brand-wrapper {
+   display: flex;
+   overflow: hidden;
 }
