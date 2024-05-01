@@ -95,6 +95,7 @@ export default function Footer() {
                   }}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
+                  onClick={"/faqs"}
                />
                <Button
                   name={"Contact Us"}
