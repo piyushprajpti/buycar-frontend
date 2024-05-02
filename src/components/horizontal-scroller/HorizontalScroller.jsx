@@ -9,18 +9,18 @@ export default function HorizontalScroller({
 
    const border = leadingBar ? "none" : "13px solid var(--primary-color)";
 
-  return (
-   <div className={style["container"]} style={{ backgroundColor: backColor, borderLeft: border }} >
-   <div className={style["wrapper"]}>
+   return (
+      <div className={style["container"]} style={{ backgroundColor: backColor, borderLeft: border }} >
+         <div className={style["wrapper"]}>
 
-      <Header word1={word1} word2={word2} word3={word3} onBackClick={onBackClick} onForwardClick={onForwardClick} leadingBar={leadingBar} scrollable={scrollable} titleFontSize={titleFontSize} />
+            <Header word1={word1} word2={word2} word3={word3} onBackClick={onBackClick} onForwardClick={onForwardClick} leadingBar={leadingBar} scrollable={scrollable} titleFontSize={titleFontSize} />
 
-      <div className={style["vehicle-list-container"]}>
-         {children}
+            <div className={style["vehicle-list-container"]}>
+               {children}
+            </div>
+         </div>
       </div>
-   </div>
-</div>
-  )
+   )
 }
 
 const Header = ({
@@ -30,7 +30,7 @@ const Header = ({
    const padding = titleFontSize ? "32px 0" : "70px 0";
 
    return (
-      <div className={headerStyle["container"]} style={{padding: padding}}>
+      <div className={headerStyle["container"]} style={{ padding: padding }}>
 
          <div className={headerStyle["wrapper"]}>
             {leadingBar && <p className={headerStyle["vertical-divider"]}></p>}
@@ -44,11 +44,11 @@ const Header = ({
             <p className={headerStyle["horizontal-divider"]}></p>
 
             <div className={headerStyle["button-container"]} onClick={() => onBackClick()}>
-               <img src={R.ic_arrow_left} className={headerStyle["button"]}  alt='back' />
+               <img src={R.ic_arrow_left} className={headerStyle["button"]} alt='back' />
             </div>
 
             <div className={headerStyle["button-container"]} onClick={() => onForwardClick()}>
-               <img src={R.ic_arrow_right} className={headerStyle["button"]}  alt='forward' />
+               <img src={R.ic_arrow_right} className={headerStyle["button"]} alt='forward' />
             </div>
          </div>}
 

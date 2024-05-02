@@ -3,6 +3,7 @@ import style from "./header2.module.scss"
 import { R } from '../../constants/resources'
 import { ActionButton, Button } from '../buttons/Buttons'
 import { Link } from 'react-router-dom'
+import buttonStyle from "../buttons/button.module.scss"
 
 export default function Header2() {
    return (
@@ -12,7 +13,7 @@ export default function Header2() {
          </Link>
 
          <div className={style["button-wrapper"]}>
-            
+
             <Button
                name={"Home"}
                textStyle={{
@@ -33,7 +34,7 @@ export default function Header2() {
                }}
                containerMargin={"0 20px"}
                bottomLine
-               onClick={"/car-listing-page"}
+               onClick={"/car-listing"}
             />
             <Button
                name={"Contact Us"}
@@ -68,17 +69,27 @@ export default function Header2() {
                containerMargin={"0 20px"}
                bottomLine
             />
-            <Button
-               name={"+91 7014986896"}
-               leadingIcon={R.ic_whatsapp}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
+
+            <a
+               className={buttonStyle["container"]}
+               href='https://api.whatsapp.com/send?phone=+91234567890'
+               style={{
+                  margin: "0 20px"
                }}
-               containerMargin={"0 20px"}
-               bottomLine
-            />
+            >
+               <div className={buttonStyle["wrapper"]}>
+                  <img src={R.ic_whatsapp} className={buttonStyle["icon"]} alt='logo' />
+                  <p 
+                  className={buttonStyle["text"]}
+                  style={{
+                     fontSize: "1.125rem",
+                     color: "#ffffff",
+                     fontWeight: "300"
+                  }}
+                  >+91 7014986896</p>
+               </div>
+               <p className={buttonStyle["bottom-line"]}></p>
+            </a>
 
             <ActionButton
                name={"Sell Car"}

@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import AboutUsPage from './screens/about-us-page/AboutUsPage';
 import TandCPage from './screens/t-and-c-page/TandCPage';
 import FAQPage from './screens/faq-page/FAQPage';
+import CarDetailPage from './screens/car-detail-page/CarDetailPage';
 
 function App() {
    return (
@@ -14,11 +15,12 @@ function App() {
          <BrowserRouter>
             <Routes>
                <Route path='/' element={<LandingPage />} />
-               <Route path='/car-listing-page' element={<CarListingPage />} />
+               <Route path='/car-listing' element={<CarListingPage />} />
                <Route path='/contact-us' element={<ContactUsPage />} />
                <Route path='/about-us' element={<AboutUsPage />} />
                <Route path='/terms-and-conditions' element={<TandCPage />} />
                <Route path='/faqs' element={<FAQPage />} />
+               <Route path='/car-detail' element={<CarDetailPage />} />
             </Routes>
             <Footer />
          </BrowserRouter>

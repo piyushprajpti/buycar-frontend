@@ -36,6 +36,8 @@ import IC_BUY_BACK from "../res/buyBackGuarantee.png"
 import IC_ARROW_RIGHT_BLACK from "../res/arrowRightBlack.png"
 import IC_PLUS_BLACK from "../res/plusBlack.png"
 import IC_MINUS_WHITE from "../res/minusWhite.png"
+import IC_HOME from "../res/home.png"
+import IC_MAKE_YEAR from "../res/makeYear.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -75,5 +77,7 @@ export const R = {
    ic_buy_back: IC_BUY_BACK,
    ic_arrow_right_black: IC_ARROW_RIGHT_BLACK,
    ic_plus_black: IC_PLUS_BLACK,
-   ic_minus_white: IC_MINUS_WHITE
+   ic_minus_white: IC_MINUS_WHITE,
+   ic_home: IC_HOME,
+   ic_make_year: IC_MAKE_YEAR
 }

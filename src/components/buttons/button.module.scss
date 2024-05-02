@@ -2,7 +2,7 @@
    text-decoration: none;
    :hover {
       cursor: pointer;
-      color: var(--primary-color) !important;
+      color: var(--primary-color-hover) !important;
    }
 }
 
@@ -23,7 +23,7 @@
 
 .bottom-line {
    width: 0;
-   background-color: var(--primary-color);
+   background-color: var(--primary-color-hover);
    height: 2px;
 }
 

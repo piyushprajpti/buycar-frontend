@@ -23,6 +23,7 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -34,6 +35,7 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -45,6 +47,7 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -56,7 +59,57 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
+            <VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+            <VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+            <VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+            <VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+
 
          </div>
 
@@ -92,7 +145,7 @@ export default function ResultSection() {
 
          <div className={style["result-list-wrapper"]}>
 
-            <VehicleCard
+         <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -102,8 +155,9 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
-            <VehicleCard
+<VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -113,7 +167,45 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
+<VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+<VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+<VehicleCard
+               discountAmount={"50% OFF"}
+               vehicleImg={R.ic_car1}
+               transmissionType={"Automatic"}
+               fuelType={"Petrol"}
+               odometer={"40,000"}
+               vehicleName={"2022 Hyundai Creta SX"}
+               vehicleOriginalPrice={"$ 14.74 Lac"}
+               vehicleDiscountedPrice={"$ 14.74 Lac"}
+               vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
+            />
+
 
          </div>
 
@@ -138,7 +230,7 @@ export default function ResultSection() {
 
          <div className={style["result-list-wrapper"]}>
 
-            <VehicleCard
+         <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -148,8 +240,9 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
-            <VehicleCard
+<VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -159,7 +252,9 @@ export default function ResultSection() {
                vehicleOriginalPrice={"$ 14.74 Lac"}
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
+               containerFlex={"0 0 30%"}
             />
+
 
          </div>
       </div>

@@ -39,7 +39,9 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
+               
                <VehicleCard
                   discountAmount={"50% OFF"}
                   vehicleImg={R.ic_car1}
@@ -50,7 +52,9 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
+               
                <VehicleCard
                   discountAmount={"50% OFF"}
                   vehicleImg={R.ic_car1}
@@ -61,7 +65,22 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
+               
+               <VehicleCard
+                  discountAmount={"50% OFF"}
+                  vehicleImg={R.ic_car1}
+                  transmissionType={"Automatic"}
+                  fuelType={"Petrol"}
+                  odometer={"40,000"}
+                  vehicleName={"2022 Hyundai Creta SX"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
+               />
+               
             </HorizontalScroller>
 
             <HorizontalScroller
@@ -82,6 +101,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -93,6 +113,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -104,7 +125,21 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
+               <VehicleCard
+                  discountAmount={"50% OFF"}
+                  vehicleImg={R.ic_car1}
+                  transmissionType={"Automatic"}
+                  fuelType={"Petrol"}
+                  odometer={"40,000"}
+                  vehicleName={"2022 Hyundai Creta SX"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
+               />
+               
             </HorizontalScroller>
 
             <HorizontalScroller
@@ -124,6 +159,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -135,6 +171,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -146,6 +183,19 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
+               />
+               <VehicleCard
+                  discountAmount={"50% OFF"}
+                  vehicleImg={R.ic_car1}
+                  transmissionType={"Automatic"}
+                  fuelType={"Petrol"}
+                  odometer={"40,000"}
+                  vehicleName={"2022 Hyundai Creta SX"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
             </HorizontalScroller>
 
@@ -166,6 +216,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -177,6 +228,7 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
                <VehicleCard
                   discountAmount={"50% OFF"}
@@ -188,7 +240,21 @@ export default function LandingPage() {
                   vehicleOriginalPrice={"$ 14.74 Lac"}
                   vehicleDiscountedPrice={"$ 14.74 Lac"}
                   vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
                />
+               <VehicleCard
+                  discountAmount={"50% OFF"}
+                  vehicleImg={R.ic_car1}
+                  transmissionType={"Automatic"}
+                  fuelType={"Petrol"}
+                  odometer={"40,000"}
+                  vehicleName={"2022 Hyundai Creta SX"}
+                  vehicleOriginalPrice={"$ 14.74 Lac"}
+                  vehicleDiscountedPrice={"$ 14.74 Lac"}
+                  vehicleDate={"June 2021"}
+                  containerFlex={"0 0 23%"}
+               />
+               
             </HorizontalScroller>
 
          </div>

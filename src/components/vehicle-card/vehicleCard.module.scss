@@ -4,7 +4,7 @@
    display: flex;
    flex-direction: column;
    padding: 16px;
-   margin: 0 40px 40px 0;
+   margin: 0 20px 20px 0;
    background-color: #ffffff;
 }
 
@@ -23,15 +23,15 @@
 
 .discount-amount {
    position: absolute;
-   top: 7px;
-   left: 13px;
-   font-size: 1.125rem;
+   top: 11px;
+   left: 14px;
+   font-size: 0.875rem;
    font-weight: 600;
    color: white;
 }
 
 .tag-image {
-   width: 120px;
+   width: 100px;
    height: 40px;
 }
 
@@ -49,17 +49,14 @@
    width: 100%;
    display: flex;
    align-items: center;
-   justify-content: center;
 }
 
 .specs-wrapper {
    width: 90%;
    border-radius: 22.5px;
-   background-color: var(--specs-back-gray);
-   transform: translateY(-50%);
    display: flex;
    align-items: center;
-   padding: 10px 24px;
+   justify-content: space-evenly;
 }
 
 .spec-wrapper {
@@ -67,26 +64,27 @@
 }
 
 .spec-icon {
-   width: 22px;
+   width: 16px;
+   object-fit: contain;
 }
 
 .spec-name {
    margin-left: 5px;
-   font-size: 0.875rem;
+   font-size: 0.68rem;
    font-weight: 400;
    color: var(--specs-font-black);
 }
 
 .gray-dot {
-   margin: 0 8px;
-   width: 5px;
-   height: 5px;
+   margin: 0 4px;
+   width: 4px;
+   height: 4px;
    border-radius: 50%;
    background-color: var(--dot-gray);
 }
 
 .vehicle-name {
-   font-size: 1.25rem;
+   font-size: 1.125rem;
    font-weight: 600;
    color: var(--tags-text-black);
 }
@@ -97,16 +95,16 @@
 }
 
 .vehicle-original-price {
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    font-weight: 600;
    color: var(--specs-price-black);
 }
 
 .vehicle-discounted-price {
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    font-weight: 600;
    color: var(--primary-color);
-   margin-left: 5px;
+   margin: 0 8px;
 }
 
 .horizontal-divider {
@@ -136,4 +134,13 @@
    color: #000000;
    font-size: 1.125rem;
    font-weight: 400;
+}
+
+.green-discount-tag {
+   padding: 6px 13px;
+   font-weight: 600;
+   font-size: 1rem;
+   color: #ffffff;
+   background-color: var(--green-back);
+   border-radius: 2px;
 }

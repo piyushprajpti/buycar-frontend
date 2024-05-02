@@ -3,6 +3,7 @@ import style from "./header.module.scss"
 import { R } from '../../constants/resources';
 import { ActionButton, Button } from '../buttons/Buttons';
 import { Link } from 'react-router-dom';
+import buttonStyle from "../buttons/button.module.scss"
 
 export default function Header() {
    return (
@@ -37,7 +38,7 @@ export default function Header() {
                   }}
                   containerMargin={"0 20px"}
                   bottomLine
-                  onClick={"/car-listing-page"}
+                  onClick={"/car-listing"}
                />
                <Button
                   name={"Contact Us"}
@@ -72,17 +73,26 @@ export default function Header() {
                   containerMargin={"0 20px"}
                   bottomLine
                />
-               <Button
-                  name={"+91 7014986896"}
-                  leadingIcon={R.ic_whatsapp}
-                  textStyle={{
+                <a
+               className={buttonStyle["container"]}
+               href='https://api.whatsapp.com/send?phone=+917014986896'
+               style={{
+                  margin: "0 20px"
+               }}
+            >
+               <div className={buttonStyle["wrapper"]}>
+                  <img src={R.ic_whatsapp} className={buttonStyle["icon"]} alt='logo' />
+                  <p 
+                  className={buttonStyle["text"]}
+                  style={{
                      fontSize: "1.125rem",
                      color: "#000000",
                      fontWeight: "300"
                   }}
-                  containerMargin={"0 20px"}
-                  bottomLine
-               />
+                  >+91 7014986896</p>
+               </div>
+               <p className={buttonStyle["bottom-line"]}></p>
+            </a>
                <ActionButton
                   name={"Sell Car"}
                   containerStyle={{

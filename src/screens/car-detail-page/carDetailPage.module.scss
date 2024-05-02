@@ -1,0 +1,157 @@
+.container {
+   width: 100%;
+   padding: 70px 120px;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--container-back);
+   row-gap: 20px;
+
+}
+
+.wrapper {
+   display: flex;
+   column-gap: 40px;
+}
+
+.car-image-wrapper {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+
+.image {
+   width: 100%;
+   object-fit: contain;
+   border-radius: 12px;
+}
+
+.car-detail-wrapper {
+   flex: 1;
+   background-color: #ffffff;
+   padding: 40px;
+}
+
+.car-name {
+   font-size: 2.25rem;
+   font-weight: 600;
+   color: var(--tags-text-black);
+}
+
+.horizontal-divider {
+   background-color: var(--vehicle-card-gray);
+   width: auto;
+   height: 1px;
+   margin: 36px 0;
+}
+
+.test-drive-wrapper {
+   display: flex;
+   margin-bottom: 40px;
+}
+
+.home-icon {
+   width: 28px;
+   height: 25px;
+   margin-right: 12px;
+}
+
+.test-drive-text {
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: var(--specs-font-black);
+   opacity: 50%;
+}
+
+.action-button-wrapper {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.more-help-container {
+   width: 100%;
+   background-color: var(--more-help-back);
+   margin-top: 36px;
+   display: flex;
+   padding: 12px 24px;
+}
+
+.more-help-text {
+   font-size: 1.25rem;
+   color: var(--specs-font-black);
+   opacity: 50%;
+}
+
+.whatsapp-wrapper {
+   display: flex;
+   text-decoration: none;
+}
+
+.whatsapp-icon {
+   width: 25px;
+   height: 25px;
+   margin: 0 10px;
+}
+
+.whatsapp-text {
+   color: var(--whatsapp-green);
+   font-size: 1.25rem;
+   font-weight: 500;
+}
+
+.overview-details-wrapper {
+   width: 50%;
+   background-color: #ffffff;
+   padding: 40px;
+}
+
+.overview-text {
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--tags-text-black);
+}
+
+.boxes-container {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.detail-box-container {
+   display: flex;
+   margin-bottom: 24px;
+   align-items: center;
+   flex: 1 0 50%;
+}
+
+.detail-box-icon-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   background-color: #f0f0f0;
+   width: 41px;
+   height: 41px;
+   margin-right: 20px;
+
+}
+
+.detail-box-icon {
+   width: 26px;
+   height: 26px;
+}
+
+.detail-info-wrapper {
+   display: flex;
+   flex-direction: column;
+}
+
+.detail-box-title {
+   font-size: 1.25rem;
+   color: var(--detail-title);
+}
+
+.detail-box-description {
+   font-size: 1.25rem;
+   color: var(--specs-font-black);
+}
