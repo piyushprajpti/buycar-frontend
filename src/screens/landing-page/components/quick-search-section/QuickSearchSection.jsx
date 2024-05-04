@@ -16,12 +16,12 @@ export default function QuickSearchSection() {
                scrollable={true}
             >
                <div className={style["brand-wrapper"]}>
-                  <BrandBox brandLogo={R.ic_bmw} style={{ width: "204px", marginRight: "40px" }} />
-                  <BrandBox brandLogo={R.ic_audi} style={{ width: "204px", marginRight: "40px" }} />
-                  <BrandBox brandLogo={R.ic_kia} style={{ width: "204px", marginRight: "40px" }} />
-                  <BrandBox brandLogo={R.ic_toyota} style={{ width: "204px", marginRight: "40px" }} />
-                  <BrandBox brandLogo={R.ic_hyundai} style={{ width: "204px", marginRight: "40px" }} />
-                  <BrandBox brandLogo={R.ic_mahindra} style={{ width: "204px", marginRight: "40px" }} />
+                  <BrandBox brandLogo={R.ic_bmw} />
+                  <BrandBox brandLogo={R.ic_audi} />
+                  <BrandBox brandLogo={R.ic_kia} />
+                  <BrandBox brandLogo={R.ic_toyota} />
+                  <BrandBox brandLogo={R.ic_hyundai} />
+                  <BrandBox brandLogo={R.ic_mahindra} />
                </div>
             </HorizontalScroller>
 
@@ -33,8 +33,8 @@ export default function QuickSearchSection() {
    )
 }
 
-export const BrandBox = ({ brandLogo, style }) => {
+export const BrandBox = ({ brandLogo }) => {
    return (
-      <img src={brandLogo} alt='logo' style={style} />
+      <img src={brandLogo} alt='logo' className={style["logo-img"]} />
    )
 }

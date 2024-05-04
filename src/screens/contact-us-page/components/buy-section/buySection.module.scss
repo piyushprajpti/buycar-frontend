@@ -5,6 +5,11 @@
    background-color: #ffffff;
    border-radius: 0 30px 30px 30px;
    box-shadow: 0 4px 54px 0 #0000001a;
+
+   @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      padding: 25px;
+   }
 }
 
 .query-container {
@@ -12,6 +17,10 @@
    flex-direction: column;
    flex: 1;
    margin-left: 50px;
+
+   @media screen and (max-width: 1024px) {
+      margin-left: 0;
+   }
 }
 
 .container-header {
@@ -19,6 +28,11 @@
    font-weight: 600;
    color: #000000;
    margin-bottom: 36px;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+   }
 }
 
 .query-area {
@@ -31,6 +45,12 @@
    border: 1px solid var(--selection-border-gray);
    border-radius: 8px;
    font-size: 1.125rem;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+      height: 90px;
+      padding: 16px 12px;
+   }
 }
 
 .vertical-divider {
@@ -38,6 +58,12 @@
    background-color: var(--divider-gray);
    height: auto;
    margin-left: 60px;
+
+   @media screen and (max-width: 1024px) {
+      width: auto;
+      height: 1px;
+      margin: 30px 0;
+   }
 }
 
 .address-container {
@@ -49,8 +75,30 @@
    background-repeat: no-repeat;
    flex: 1;
    border-radius: 0 0 30px 0;
+
+   @media screen and (max-width: 1024px) {
+      border-radius: 0;
+      padding-bottom: 120px;
+   }
 }
 
 .address-wrapper {
    margin-left: 50px;
+
+   @media screen and (max-width: 1024px) {
+      margin: 0;
+   }
+}
+
+.para-desc-container {
+   padding-top: 30px;
+}
+
+.action-button-container {
+   margin: 40px 0;
+   padding: 18px 60px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 14px 50px;
+   }
 }

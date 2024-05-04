@@ -1,6 +1,5 @@
 import React from 'react'
 import style from "./buySection.module.scss"
-import { R } from '../../../../constants/resources'
 import SelectionField from "../../../../components/selection-field/SelectionField"
 import InputField from "../../../../components/input-field/InputField"
 import { ActionButton } from '../../../../components/buttons/Buttons'
@@ -23,8 +22,7 @@ export default function BuySection() {
 
             <ActionButton
                name={"Submit"}
-               containerStyle={{ margin: "40px 0" }}
-               textMargin={"17px 61.5px"}
+               containerStyle={style["action-button-container"]}
             />
 
          </div>
@@ -39,13 +37,13 @@ export default function BuySection() {
                <PrimaryPara 
                title={"Corporate Office Address"}
                description={"A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India"}
-               containerStyle={{paddingTop: "45px"}}
+               containerStyle={style["para-desc-container"]}
                mapView
                />
                <PrimaryPara 
                title={"Corporate Office Address"}
                description={"A-10 Shop No.12 Sec No.4 Shanti Nagar Mira Road, Mumbai, Maharashtra, 401107, India"}
-               containerStyle={{paddingTop: "45px"}}               
+               containerStyle={style["para-desc-container"]}               
                mapView
                />
             </div>

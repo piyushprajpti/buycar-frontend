@@ -30,12 +30,7 @@ export default function TradeCarSection() {
 
                <ActionButton
                   name={"Search"}
-                  containerStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "500",
-                     padding: "17px 62.5px",
-                     margin: "32px 0"
-                  }} />
+                  containerStyle={style["action-button-search"]} />
             </div>
 
             <div className={style["divider"]}></div>
@@ -48,13 +43,7 @@ export default function TradeCarSection() {
                   leadingIcon={R.ic_sell_car}
                   leadingIconWidth={"24px"}
                   textMargin={"0 0 0 6px"} paddingValues={"22px 0"} width={"100%"} fontSize={"1.5rem"} fontWeight={"500"} margin={"0 0 30px 0"}
-                  containerStyle={{
-                     padding: "22px 0",
-                     width: "100%",
-                     fontSize: "1.5rem",
-                     fontWeight: "500",
-                     margin: "0 0 30px 0"
-                  }}
+                  containerStyle={style["action-button-sell-car"]}
                />
 
                <div className={style["tag-container"]}>

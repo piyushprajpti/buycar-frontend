@@ -16,44 +16,28 @@ export default function Header2() {
 
             <Button
                name={"Home"}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
-               }}
+               textStyle={style["button-text-style"]}
                containerMargin={"0 20px"}
                bottomLine
                onClick={"/"}
             />
             <Button
                name={"Buy Car"}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
-               }}
+               textStyle={style["button-text-style"]}
                containerMargin={"0 20px"}
                bottomLine
                onClick={"/car-listing"}
             />
             <Button
                name={"Contact Us"}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
-               }}
+               textStyle={style["button-text-style"]}
                containerMargin={"0 20px"}
                bottomLine
                onClick={"/contact-us"}
             />
             <Button
                name={"About Us"}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
-               }}
+               textStyle={style["button-text-style"]}
                containerMargin={"0 20px"}
                bottomLine
                onClick={"/about-us"}
@@ -61,11 +45,7 @@ export default function Header2() {
             <Button
                name={"More"}
                trailingIcon={R.ic_drop_down_arrow}
-               textStyle={{
-                  fontSize: "1.125rem",
-                  color: "#ffffff",
-                  fontWeight: "300"
-               }}
+               textStyle={style["button-text-style"]}
                containerMargin={"0 20px"}
                bottomLine
             />
@@ -73,6 +53,7 @@ export default function Header2() {
             <a
                className={buttonStyle["container"]}
                href='https://api.whatsapp.com/send?phone=+91234567890'
+               target='_blank'
                style={{
                   margin: "0 20px"
                }}
@@ -93,12 +74,7 @@ export default function Header2() {
 
             <ActionButton
                name={"Sell Car"}
-               containerStyle={{
-                  padding: "11px 34.5px",
-                  margin: "0 20px",
-                  backgroundColor: "#ffffff",
-                  color: "#000000"
-               }}
+               containerStyle={style["action-button-container-style"]}
             />
          </div>
       </div>

@@ -46,12 +46,12 @@ export default function CarDetailPage() {
 
                      <ActionButton
                         name={"Book Now"}
-                        containerStyle={{ flex: 1, padding: "22px 0" }}
+                        containerStyle={style["action-button-book-now"]}
                      />
 
                      <ActionButton
                         name={"Book Test Drive"}
-                        containerStyle={{ flex: 1, padding: "22px 0", backgroundColor: "var(--red-back)" }}
+                        containerStyle={style["action-button-book-test-drive"]}
                      />
 
                   </div>

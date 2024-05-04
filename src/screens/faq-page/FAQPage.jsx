@@ -48,7 +48,7 @@ export default function FAQPage() {
 
                      <ActionButton
                         name={"Send Message"}
-                        containerStyle={{padding: "20px 30px"}}
+                        containerStyle={style["action-button-container"]}
                      />
                   </div>
                </div>

@@ -6,6 +6,11 @@
    padding: 16px;
    margin: 0 20px 20px 0;
    background-color: #ffffff;
+   text-decoration: none;
+
+   @media screen and (max-width: 1024px) {
+      padding: 8px;
+   }
 }
 
 .image-container {
@@ -28,11 +33,22 @@
    font-size: 0.875rem;
    font-weight: 600;
    color: white;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.625rem;
+      top: 8px;
+      left: 12px;
+   }      
 }
 
 .tag-image {
    width: 100px;
    height: 40px;
+
+   @media screen and (max-width: 1024px) {
+      width: 70px;
+      height: 30px;
+   }
 }
 
 .vehicle-image {
@@ -66,6 +82,10 @@
 .spec-icon {
    width: 16px;
    object-fit: contain;
+
+   @media screen and (max-width: 1024px) {
+      width: 12px;
+   }
 }
 
 .spec-name {
@@ -73,6 +93,10 @@
    font-size: 0.68rem;
    font-weight: 400;
    color: var(--specs-font-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.5rem;        
+   }
 }
 
 .gray-dot {
@@ -87,17 +111,26 @@
    font-size: 1.125rem;
    font-weight: 600;
    color: var(--tags-text-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1rem;
+   }
 }
 
 .vehicle-price-container {
    display: flex;
    margin-bottom: 5px;
+   align-items: center;
 }
 
 .vehicle-original-price {
    font-size: 1.25rem;
    font-weight: 600;
    color: var(--specs-price-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+   }
 }
 
 .vehicle-discounted-price {
@@ -105,6 +138,25 @@
    font-weight: 600;
    color: var(--primary-color);
    margin: 0 8px;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem; 
+      margin: 0 0 0 5px;
+   }
+}
+
+.green-discount-tag {
+   margin-left: 10px;
+   padding: 6px 13px;
+   font-weight: 600;
+   font-size: 1rem;
+   color: #ffffff;
+   background-color: var(--green-back);
+   border-radius: 2px;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.625rem;
+   }
 }
 
 .horizontal-divider {
@@ -113,6 +165,10 @@
    height: 1px;
    align-self: center;
    margin: 16px;
+
+   @media screen and (max-width: 1024px) {
+      margin: 6px 0 14px 0;
+   }
 }
 
 .vehicle-date-wrapper {
@@ -122,25 +178,30 @@
    background-color: var(--vehicle-date-back);
    border-radius: 14px;
    padding-right: 14px;
+
+   @media screen and (max-width: 1024px) {
+      margin-bottom: 4px;        
+   }
 }
 
 .car-icon {
    width: 29px;
    height: 29px;
    margin-right: 9px;
+
+   @media screen and (max-width: 1024px) {
+      width: 20px;
+      height: 20px;
+   }
 }
 
 .date {
    color: #000000;
    font-size: 1.125rem;
    font-weight: 400;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+   }
 }
 
-.green-discount-tag {
-   padding: 6px 13px;
-   font-weight: 600;
-   font-size: 1rem;
-   color: #ffffff;
-   background-color: var(--green-back);
-   border-radius: 2px;
-}

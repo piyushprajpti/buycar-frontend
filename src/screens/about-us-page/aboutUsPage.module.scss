@@ -9,6 +9,11 @@
    font-weight: 600;
    color: #000000;
    margin: 70px 0 0 120px;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.5rem;
+      margin: 40px 15px 5px 15px;
+   }
 }
 
 .wrapper {
@@ -16,6 +21,10 @@
    background-color: #ffffff;
    border-radius: 0 30px 30px 30px;
    box-shadow: 0 4px 54px 0 #0000001a;
+
+   @media screen and (max-width: 1024px) {
+      margin: 15px;
+   }
 }
 
 .who-we-are-wrapper {
@@ -24,11 +33,28 @@
    align-items: last baseline;
 }
 
+.para-desc-container-1 {
+   width: 80%;
+
+   @media screen and (max-width: 1024px) {
+      width: 100%;
+   }
+}
+
+.para-desc-container-2 {
+   background-color: var(--arrow-button-back);
+   padding: 40px;
+}
+
 .logo-wrapper {
    width: 349px;
    height: 100%;
    margin-left: 50px;
    justify-self: baseline;
+
+   @media screen and (max-width: 1024px) {
+      display: none;
+   }
 }
 
 .logo {
@@ -47,6 +73,9 @@
    height: 100%;
    margin-left: 50px;
 
+   @media screen and (max-width: 1024px) {
+      display: none;
+   }
 }
 
 .about-img {

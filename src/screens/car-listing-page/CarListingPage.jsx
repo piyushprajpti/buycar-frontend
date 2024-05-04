@@ -7,13 +7,16 @@ import Footer from '../../components/footer/Footer'
 
 export default function CarListingPage() {
    return (
-      <div className={style["container"]}>
-         <Header2/>
+      <>
+         <Header2 />
+         
+         <div className={style["container"]}>
 
-         <div className={style["wrapper"]}>
-         <FilterSection/>
-         <ResultSection/>
+            <div className={style["wrapper"]}>
+               <FilterSection />
+               <ResultSection />
+            </div>
          </div>
-      </div>
+      </>
    )
 }

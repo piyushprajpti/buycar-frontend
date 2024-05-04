@@ -7,6 +7,9 @@
    z-index: 100;
    background-color: transparent;
 
+   @media screen and (max-width: 1024px) {
+      height: 80px;
+   }
 }
 
 .logo-container {
@@ -20,6 +23,10 @@
    border-radius: 0 44px 0 0;
    align-items: center;
    text-decoration: none;
+
+   @media screen and (max-width: 1024px) {
+      width: 38%;
+   }
 }
 
 .logo-wrapper {
@@ -29,6 +36,11 @@
    display: flex;
    justify-content: center;
    align-items: center;
+
+   @media screen and (max-width: 1024px) {
+      width: 70%;
+      margin-left: 0;
+   }
 }
 
 .logo {
@@ -48,6 +60,11 @@
    display: flex;
    justify-content: end;
    align-items: center;
+
+   @media screen and (max-width: 1024px) {
+      width: 75%;
+      border-radius: 0 0 0 44px;
+   }
 }
 
 .action-button-wrapper {
@@ -55,6 +72,9 @@
    padding-right: 20px;
    align-items: center;
 
+   @media screen and (max-width: 1024px) {
+      display: none;
+   }
 }
 
 .contact-num-wrapper {
@@ -75,4 +95,15 @@
 
 .number {
    padding-left: 5px;
+}
+
+.button-text-style {
+   font-size: 1.125rem;
+   color: #000000;
+   font-weight: 300;
+}
+
+.action-button-container-style {
+   padding: 11px 34.5px;
+   margin: 0 20px;
 }

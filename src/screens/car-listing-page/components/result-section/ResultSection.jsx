@@ -24,6 +24,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -36,6 +37,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -48,6 +50,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -60,6 +63,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -72,6 +76,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -84,6 +89,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -96,6 +102,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
             <VehicleCard
                discountAmount={"50% OFF"}
@@ -108,6 +115,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
 
 
@@ -145,7 +153,7 @@ export default function ResultSection() {
 
          <div className={style["result-list-wrapper"]}>
 
-         <VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -156,8 +164,9 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
-<VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -168,8 +177,9 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
-<VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -180,8 +190,9 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
-<VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -192,8 +203,9 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
-<VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -204,6 +216,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
 
 
@@ -230,7 +243,7 @@ export default function ResultSection() {
 
          <div className={style["result-list-wrapper"]}>
 
-         <VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -241,8 +254,9 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
-<VehicleCard
+            <VehicleCard
                discountAmount={"50% OFF"}
                vehicleImg={R.ic_car1}
                transmissionType={"Automatic"}
@@ -253,6 +267,7 @@ export default function ResultSection() {
                vehicleDiscountedPrice={"$ 14.74 Lac"}
                vehicleDate={"June 2021"}
                containerFlex={"0 0 30%"}
+               onClick={"/car-detail"}
             />
 
 

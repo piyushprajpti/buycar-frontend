@@ -17,8 +17,7 @@ export function Button({
          <div className={buttonStyle["wrapper"]}>
             {leadingIcon && <img src={leadingIcon} className={buttonStyle["icon"]} style={{ width: leadingIconWidth }} alt='logo' />}
             <p
-               className={buttonStyle["text"]}
-               style={textStyle}
+               className={[buttonStyle["text"], textStyle].join(' ')}
             >
                {name}
             </p>
@@ -30,17 +29,16 @@ export function Button({
 }
 
 export function ActionButton({
-   name, leadingIcon, trailingIcon, onClick, leadingIconWidth, textMargin, containerStyle
+   name, leadingIcon, trailingIcon, onClick, leadingIconWidth, containerStyle
 }) {
    return (
       <Link
          to={onClick}
-         className={actionButtonStyle["container"]}
-         style={containerStyle}
+         className={[actionButtonStyle["container"], containerStyle].join(" ")}
       >
          {leadingIcon && <img src={leadingIcon} alt='icon' style={{ width: leadingIconWidth }} />}
 
-         <p className={actionButtonStyle["text"]} style={{ margin: textMargin }}>{name}</p>
+         <p className={actionButtonStyle["text"]}>{name}</p>
 
          {trailingIcon && <img src={trailingIcon} alt='icon' />}
       </Link>

@@ -8,12 +8,21 @@
    justify-content: center;
    align-items: center;
    transform: translateY(-136px);
+
+   @media screen and (max-width: 1024px) {
+      height: auto;
+      transform: translateY(0);
+   }
 }
 
 .text {
    color: #ffffff;
    font-size: 3.75rem;
    font-weight: 700;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.5rem;
+   }
 }
 
 .highlighted-text {

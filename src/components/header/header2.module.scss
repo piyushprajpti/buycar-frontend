@@ -6,12 +6,23 @@
    align-items: center;
    justify-content: space-between;
    padding: 0 30px;
+
+   @media screen and (max-width: 1024px) {
+      height: 80px;
+      padding: 0 10px;
+   }
 }
 
 .logo-wrapper {
    width: 195px;
    height: 96px;
    text-decoration: none;
+
+   @media screen and (max-width: 1024px) {
+      width: 30%;
+      align-items: center;
+      justify-content: center;
+   }
 }
 
 .logo-img {
@@ -24,4 +35,20 @@
    display: flex;
    align-items: center;
 
+   @media screen and (max-width: 1024px) {
+      display: none;
+   }
+}
+
+.button-text-style {
+   font-size: 1.125rem;
+   color: #ffffff;
+   font-weight: 300;
+}
+
+.action-button-container-style {
+      padding: 11px 34.5px;
+      margin: 0 20px;
+      background-color: #ffffff;
+      color: #000000;
 }

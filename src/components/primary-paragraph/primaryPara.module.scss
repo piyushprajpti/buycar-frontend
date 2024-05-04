@@ -22,7 +22,7 @@
 }
 
 .description {
-   font-size: 1.125rem;
+   font-size: 1rem;
    color: var(--specs-font-black);
    opacity: 50%;
    margin: 16px 0 16px 30px;
@@ -32,6 +32,7 @@
    display: flex;
    align-items: center;
    margin-left: 30px;
+   text-decoration: none;
 }
 
 .map-view-wrapper:hover {

@@ -6,4 +6,9 @@
    margin-top: 30px;
    font-size: 1.125rem;
    color: var(--input-field-font-color);
+
+   @media screen and (max-width: 1024px) {
+      padding: 16px 12px;  
+      font-size: 0.875rem;
+   }
 }

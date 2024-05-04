@@ -5,6 +5,11 @@
 .wrapper {
    margin: 70px;
    display: flex;
+
+   @media screen and (max-width: 1024px) {
+      margin: 40px 15px;
+      flex-direction: column;
+   }
 }
 
 .faq-list-container {
@@ -18,6 +23,10 @@
    font-weight: 600;
    color: #000000;
    margin-bottom: 40px;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.5rem;
+   }
 }
 
 .support-box-container {
@@ -30,12 +39,21 @@
    width: 70%;
    background-color: var(--supprt-box-back);
    padding: 32px;
+
+   @media screen and (max-width: 1024px) {
+      width: 100%;  
+      padding: 20px;
+   }
 }
 
 .box-heading {
    font-size: 1.25rem;
    font-weight: 600;
    color: var(--specs-font-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.125rem;
+   }
 }
 
 .box-description {
@@ -43,6 +61,10 @@
    margin: 12px 0;
    color: var(--specs-font-black);
    opacity: 80%;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+   }
 }
 
 .input {
@@ -68,6 +90,14 @@
    color: #888888;
 }
 
+.action-button-container {
+   padding: 20px 30px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 14px 25px;
+   }
+}
+
 // FAQBox style
 
 .faq-box-container {
@@ -83,11 +113,19 @@
    align-items: center;
    justify-content: space-between;
    padding: 20px 25px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 10px 15px;
+   }
 }
 
 .faq-box-header {
    font-size: 1.25rem;
    font-weight: 400;
+
+   @media screen and (max-width: 1024px) {
+    font-size: 1rem;  
+   }
 }
 
 .icon-wrapper {
@@ -109,6 +147,10 @@
 
 .faq-box-description-wrapper {
    padding: 24px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 20px;
+   }
 }
 
 .description {
@@ -116,4 +158,8 @@
    font-weight: 400;
    color: var(--specs-font-black);
    opacity: 50%;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+   }
 }

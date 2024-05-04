@@ -21,12 +21,7 @@ export default function Footer() {
                <Button
                   name={"About Us"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
                   onClick={"/about-us"}
@@ -34,38 +29,26 @@ export default function Footer() {
                <Button
                   name={"Legal"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
+                  onClick={"/legal"}
                />
                <Button
                   name={"Terms & Conditions"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
+                  onClick={"/terms-and-conditions"}
                />
                <Button
                   name={"Privacy Policies"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
+                  onClick={"/privacy-policies"}
                />
             </div>
 
@@ -75,41 +58,30 @@ export default function Footer() {
                <Button
                   name={"Help"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
+                  onClick={"/help"}
                />
+
                <Button
-                  name={"FAQ's"}
+                  name={"FAQs"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
                   onClick={"/faqs"}
                />
+
                <Button
                   name={"Contact Us"}
                   leadingIcon={R.ic_dot}
-                  textStyle={{
-                     fontSize: "1.5rem",
-                     fontWeight: "300",
-                     color: "#ffffff",
-                     margin: "0 0 0 24.5px"
-                  }}
+                  textStyle={style["button-text-style"]}
                   margin={"7px 0"}
                   leadingIconWidth={"8px"}
                   onClick={"/contact-us"}
                />
+
             </div>
          </div>
 

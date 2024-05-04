@@ -1,13 +1,14 @@
 import React from 'react'
 import style from "./vehicleCard.module.scss"
 import { R } from '../../constants/resources'
+import { Link } from 'react-router-dom'
 
 export default function VehicleCard({
-   discountAmount, vehicleImg, transmissionType, fuelType, odometer, vehicleName, vehicleOriginalPrice, vehicleDiscountedPrice, vehicleDate, containerFlex
+   discountAmount, vehicleImg, transmissionType, fuelType, odometer, vehicleName, vehicleOriginalPrice, vehicleDiscountedPrice, vehicleDate, containerFlex, onClick
 }) {
 
    return (
-      <div className={style["container"]} style={{flex: containerFlex}}>
+      <Link className={style["container"]} style={{flex: containerFlex}} to={onClick}>
 
          <div className={style["image-container"]}>
 
@@ -40,7 +41,7 @@ export default function VehicleCard({
             <p className={style["date"]}>{vehicleDate}</p>
          </div>
 
-      </div>
+      </Link>
    )
 }
 

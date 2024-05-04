@@ -7,7 +7,7 @@ export default function HorizontalScroller({
    word1, word2, word3, onBackClick, onForwardClick, backColor, leadingBar, children, scrollable, titleFontSize
 }) {
 
-   const border = leadingBar ? "none" : "13px solid var(--primary-color)";
+   const border = leadingBar ? "none" : "10px solid var(--primary-color)";
 
    return (
       <div className={style["container"]} style={{ backgroundColor: backColor, borderLeft: border }} >
@@ -26,11 +26,8 @@ export default function HorizontalScroller({
 const Header = ({
    word1, word2, word3, onBackClick, onForwardClick, leadingBar, scrollable, titleFontSize
 }) => {
-
-   const padding = titleFontSize ? "32px 0" : "70px 0";
-
    return (
-      <div className={headerStyle["container"]} style={{ padding: padding }}>
+      <div className={headerStyle["container"]}>
 
          <div className={headerStyle["wrapper"]}>
             {leadingBar && <p className={headerStyle["vertical-divider"]}></p>}

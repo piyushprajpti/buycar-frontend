@@ -6,11 +6,19 @@
    background-color: var(--container-back);
    row-gap: 20px;
 
+   @media screen and (max-width: 1024px) {
+      padding: 40px 20px;
+      background-color: #ffffff;
+   }
 }
 
 .wrapper {
    display: flex;
    column-gap: 40px;
+
+   @media screen and (max-width: 1024px) {
+      flex-direction: column;
+   }
 }
 
 .car-image-wrapper {
@@ -29,12 +37,20 @@
    flex: 1;
    background-color: #ffffff;
    padding: 40px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 20px 0;
+   }
 }
 
 .car-name {
    font-size: 2.25rem;
    font-weight: 600;
    color: var(--tags-text-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.5rem;
+   }
 }
 
 .horizontal-divider {
@@ -42,17 +58,27 @@
    width: auto;
    height: 1px;
    margin: 36px 0;
+
+   @media screen and (max-width: 1024px) {
+      margin: 20px 0;
+   }
 }
 
 .test-drive-wrapper {
    display: flex;
    margin-bottom: 40px;
+   align-items: center;
 }
 
 .home-icon {
    width: 28px;
    height: 25px;
    margin-right: 12px;
+
+   @media screen and (max-width: 1024px) {
+      width: 20px;
+      height: 18px;
+   }
 }
 
 .test-drive-text {
@@ -60,12 +86,39 @@
    font-weight: 400;
    color: var(--specs-font-black);
    opacity: 50%;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1rem;
+   }
 }
 
 .action-button-wrapper {
    display: flex;
    justify-content: space-between;
    column-gap: 30px;
+
+   @media screen and (max-width: 1024px) {
+      column-gap: 15px;
+   }
+}
+
+.action-button-book-now {
+   flex: 1;
+   padding: 22px 0;
+
+   @media screen and (max-width: 1024px) {
+      padding: 14px 0;
+   }
+}
+
+.action-button-book-test-drive {
+   flex: 1;
+   padding: 22px 0;
+   background-color: var(--red-back);
+
+   @media screen and (max-width: 1024px) {
+      padding: 14px 0;        
+   }
 }
 
 .more-help-container {
@@ -74,12 +127,20 @@
    margin-top: 36px;
    display: flex;
    padding: 12px 24px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 12px 15px;
+   }
 }
 
 .more-help-text {
    font-size: 1.25rem;
    color: var(--specs-font-black);
    opacity: 50%;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.75rem;
+   }
 }
 
 .whatsapp-wrapper {
@@ -91,30 +152,48 @@
    width: 25px;
    height: 25px;
    margin: 0 10px;
+
+   @media screen and (max-width: 1024px) {
+      width: 18px;
+      height: 18px;
+      margin: 0 4px;
+   }
 }
 
 .whatsapp-text {
    color: var(--whatsapp-green);
    font-size: 1.25rem;
    font-weight: 500;
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.75rem;
+   }
 }
 
 .overview-details-wrapper {
    width: 50%;
    background-color: #ffffff;
    padding: 40px;
+
+   @media screen and (max-width: 1024px) {
+      padding: 20px;
+      width: 100%;
+   }
 }
 
 .overview-text {
    font-size: 1.5rem;
    font-weight: 600;
    color: var(--tags-text-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 1.125rem;       
+   }
 }
 
 .boxes-container {
    display: flex;
    flex-wrap: wrap;
-
 }
 
 .detail-box-container {
@@ -134,11 +213,21 @@
    height: 41px;
    margin-right: 20px;
 
+   @media screen and (max-width: 1024px) {
+      width: 35px;
+      height: 35px;
+      margin-right: 8px;
+   }
 }
 
 .detail-box-icon {
    width: 26px;
    height: 26px;
+
+   @media screen and (max-width: 1024px) {
+      width: 18px;
+      height: 18px;
+   }
 }
 
 .detail-info-wrapper {
@@ -149,9 +238,17 @@
 .detail-box-title {
    font-size: 1.25rem;
    color: var(--detail-title);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;        
+   }
 }
 
 .detail-box-description {
    font-size: 1.25rem;
    color: var(--specs-font-black);
+
+   @media screen and (max-width: 1024px) {
+      font-size: 0.875rem;
+   }
 }
