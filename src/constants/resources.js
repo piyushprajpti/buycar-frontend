@@ -38,6 +38,7 @@ import IC_PLUS_BLACK from "../res/plusBlack.png"
 import IC_MINUS_WHITE from "../res/minusWhite.png"
 import IC_HOME from "../res/home.png"
 import IC_MAKE_YEAR from "../res/makeYear.png"
+import O from "../res/brand-logo-o.png"
 
 export const R = {
    img_brand_logo: IMG_BRAND_LOGO,
@@ -79,5 +80,6 @@ export const R = {
    ic_plus_black: IC_PLUS_BLACK,
    ic_minus_white: IC_MINUS_WHITE,
    ic_home: IC_HOME,
-   ic_make_year: IC_MAKE_YEAR
+   ic_make_year: IC_MAKE_YEAR,
+   o: O
 }

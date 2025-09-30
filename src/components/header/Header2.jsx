@@ -9,7 +9,7 @@ export default function Header2() {
    return (
       <div className={style["container"]}>
          <Link className={style["logo-wrapper"]} to={"/"}>
-            <img src={R.img_brand_logo} className={style["logo-img"]} />
+            <img src={R.o} className={style["logo-img"]} />
          </Link>
 
          <div className={style["button-wrapper"]}>
